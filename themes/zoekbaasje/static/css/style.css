@@ -54,6 +54,7 @@
 
 /**************************************************** 1. General Style **************************************************************/
 
+html { font-family: "Open Sans", sans-serif }
 body{ background-color: #eaeaea; font-size: 14px; }
 a:focus { outline: none; }
 .container { width: 100%; }
@@ -1801,3 +1802,25 @@ nav ul a{ padding-left: 15px !important; padding-right: 15px !important; font-si
 .card .card-title a {
   color: #fff;
 }
+
+.news-header {
+  position: relative;
+}
+
+.news-header img {
+
+}
+
+.news-header .news-title {
+  font-size: 3em;
+  color: #FFFFFF;
+  width: 100%;
+  background: rgba(0, 0, 0, 0) linear-gradient(transparent, rgba(0, 0, 0, 0.85)) repeat scroll 0 0;
+  -webkit-background: rgba(0, 0, 0, 0) linear-gradient(transparent, rgba(0, 0, 0, 0.85)) repeat scroll 0 0;
+  -ms-background: rgba(0, 0, 0, 0) linear-gradient(transparent, rgba(0, 0, 0, 0.85)) repeat scroll 0 0;
+  -o-background: rgba(0, 0, 0, 0) linear-gradient(transparent, rgba(0, 0, 0, 0.85)) repeat scroll 0 0;
+  padding: 20px;
+  position: absolute;
+  bottom: 0;
+}
+
